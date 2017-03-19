@@ -1,5 +1,7 @@
 
+<div style="text-align:center" markdown="1">
 ![gulp-beer](https://raw.githubusercontent.com/lordgiotto/gulp-beer/master/assets/logo.png)
+</div>
 
 **gulp-beer**: better error reporting.
 
