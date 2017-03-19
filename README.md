@@ -15,13 +15,13 @@
 gulp-beer is a simple error handler function that provides some extra features:
 
 - **Interactive System Notification** (thanks to [node-notifier](https://github.com/mikaelbr/node-notifier))
-- **Custom Error Server** (opened on notification click) that display all your errors in a more pleasent and straightforward way.
+- **Custom Server for Errors** (opened on notification click) that display all your errors in a more pleasent and straightforward way.
 
 **Interactive System Notification**
-![system notification](./assets/screens/notification.png)
+![system notification](https://raw.githubusercontent.com/lordgiotto/gulp-beer/master/assets/screens/notification.png)
 
-**Custom Error Server**
-![error server](./assets/screens/server.png)
+**Custom Server for Errors**
+![error server](https://raw.githubusercontent.com/lordgiotto/gulp-beer/master/assets/screens/server.png)
 
 ## Installation
 
