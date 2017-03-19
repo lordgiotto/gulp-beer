@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Error</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="logo">🍺</div>
+        <div class="brand">
+          <em>(be)</em>tter <em>(e)</em>rror <em>(r)</em>eporting
+        </div>
+      </div>
+      {{#errors}}
+        {{#isSingle}}
+          <a class="goback" href="/">All Errors</a>
+          <div class="errorBar">{{date}}</div>
+        {{/isSingle}}
+        {{^isSingle}}
+          <a href="/{{errorId}}" class="errorBar archive">{{date}}</a>
+        {{/isSingle}}
+        <div class="section">
+          <strong>Message</strong>
+          <pre class="prettyprint lang-js">{{message}}</pre>
+          <strong>Stack</strong>
+          <pre class="prettyprint lang-js">{{stack}}</pre>
+        </div>
+      {{/errors}}
+    </div>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+  </body>
+</html>

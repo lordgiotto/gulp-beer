@@ -1,0 +1,27 @@
+{
+  "name": "gulp-beer",
+  "version": "1.0.0",
+  "description": "Gulp (Be)tter (E)rror (R)eporting",
+  "keywords": ["gulp", "error", "report", "beer"],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lorenzo Zottar <lordgiotto@gmail.com>",
+  "repository": "https://github.com/lordgiotto/gulp-beer.git",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "extend": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-util": "^3.0.8",
+    "moment": "^2.18.0",
+    "mustache": "^2.3.0",
+    "mustache-express": "^1.2.4",
+    "node-notifier": "^5.1.2",
+    "opn": "^4.0.2",
+    "strip-ansi": "^3.0.1",
+    "through2": "^2.0.3",
+    "uniqid": "^4.1.1"
+  }
+}
