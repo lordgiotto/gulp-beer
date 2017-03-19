@@ -66,7 +66,7 @@ A simple usage example:
 
 ```js
 var gulp = require('gulp');
-var gulpBeer = require('../gulp-beer');
+var gulpBeer = require('gulp-beer');
 var plumber = require('gulp-plumber');
 var sass = require('gulp-sass');
 
