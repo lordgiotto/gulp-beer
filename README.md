@@ -1,14 +1,5 @@
 
-<div style="text-align:center; margin-bottom: 20px;">
-<div style="font-size: 64px; line-height:1em;">🍺</div>
-  <div style="font-size: 34px; line-height:1.2em;">gulp-beer</div>
-  <div style="font-size: 12px">
-    <hr style="width: 150px; margin: 3px auto; height: 1px;">
-    <strong>(be)</strong>tter
-    <strong>(e)</strong>rror
-    <strong>(r)</strong>eporting
-  </div>
-</div>
+![gulp-beer](https://raw.githubusercontent.com/lordgiotto/gulp-beer/master/assets/logo.png)
 
 **gulp-beer**: better error reporting.
 
