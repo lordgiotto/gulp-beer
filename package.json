@@ -1,8 +1,13 @@
 {
   "name": "gulp-beer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gulp (Be)tter (E)rror (R)eporting",
-  "keywords": ["gulp", "error", "report", "beer"],
+  "keywords": [
+    "gulp",
+    "error",
+    "report",
+    "beer"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
