@@ -1,0 +1,15 @@
+{
+    "esversion": 6,
+    "browser": true,
+    "browserify": true,
+    "jquery": true,
+    "devel": true,
+
+    "eqeqeq": true,
+    "eqnull": true,
+    "undef": true,
+    "unused": true,
+    "plusplus": true,
+    "quotmark": "single",
+    "expr": true
+}
